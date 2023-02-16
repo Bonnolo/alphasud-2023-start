@@ -1,0 +1,81 @@
+Titolo Sito:
+ALPHA SUD
+
+Navigazione Principale:
+MISSION
+CREW
+FAQ
+
+Call To Action:
+ISCRIVITI ORA
+
+Section MISSION slogan:
+Prima gli italianauti: la prima missione umana e italiana su Marte
+    Cards:
+    Card1:
+    Phase I: Explore
+    Card2:
+    Phase II: Mission
+    Card3:
+    Phase III: Colony
+    Card4:
+    (immagine)
+    Card5:
+    Titolo:
+    La propulsione P.E.P.P.
+    Testo:
+    Il Pepper Engine Popular Propulsion nasce una torrida serata d'estate a Strongoli (KR), l'ingegner GianPasquale Longo tornava a casa con la sua AlfaSud e 2 pizze al peperoncino calabrese.
+    Rimasto senza benzina, si accorse che mettendo le pizze vicino al carburatore l'auto funzionava, persino meglio.
+    L'indomani sperimentò il primo P.E.P.P., lanciando nello spazio un'inconsapevolmente un'intera pentola di penne all'arrabbiata.
+    La Fondazione ALPHA SUD vi invita a iscrivervi come volontari delle Missioni in progetto, potete anche regalare un'iscrizione a parenti o amici selezionati, pensate che sorpresa!
+
+    Section CREW:
+    Titolo: Cosa riceverai con la tua affiliazione
+    Cards:
+    Card1:
+    Level: Scugnizzo
+    1€/mese
+    Nome sul sito
+    1 Adesivo ALPHA SUD
+    Senso di appartenenza
+    Grazie
+
+    Card2:
+    Level: Guaglione
+    5€/mese
+    Nome sul sito lampeggiante
+    10 adesivi ALPHA SUD
+    Voucher 10 pizze da Ciro
+    Foto di GianPasquale
+
+    Card3:
+    Level COCCO 'E MAMM'
+    15€/mese
+    Portachiavi in argento
+    Poster della missione
+    2 kg di peperoncino
+    Foto di GianPasquale autografata
+    Card4:
+    Level TU SI 'NO SANT'
+    100€/mese
+    Nome scolpito su pietra marziana
+    Franchising Pizzeria Ciro
+    Drone a P.E.P.P.
+    Statuetta cambia colore
+
+Section FAQ:
+Titolo:
+DUBBI? ECCO LE NOSTRE FAQ
+FAQ 1:
+Quando partirà la missione?
+una è già partita, GianPasquale si è seduto sulla console di lancio e il missile è partito senza l'equipaggio ma com la donna delle pulizie
+FAQ 2:
+Ci sarà una diretta video?
+No, dovremo aspettare il ritorno della cassetta in VHS.
+FAQ 3:
+I rover di esplorazione come si chiamano?
+Si chiamano DUNARS e PANDARS! Dal progetto originario della gloriosa Fiat Duna e dalla Panda della moglie di GianPasquale.
+FAQ 4: C'è vita su Marte?
+Andiamo per scoprirlo! Per ora sappiamo che la sera c'è meno movimento che in Piazza Clodio a Crotone.
+
+

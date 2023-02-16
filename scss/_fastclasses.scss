@@ -1,0 +1,15 @@
+/* classi "fast" per impostare velocemente istruzioni di display */
+.flex{display: flex;}
+.flex-column{flex-direction: column;}
+.grid{display: grid;}
+.full-height{
+    min-height: 100vh;
+    height: 100%;
+}
+.myp-0{padding: 0;}
+.myp-0_5{padding: 0.5rem;}
+.myp-1{padding: 1rem;}
+.myp-1_5{padding:1.5rem}
+.tac{text-align: center;}
+
+/* ************************ */
