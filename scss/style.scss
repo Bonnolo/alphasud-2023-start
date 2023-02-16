@@ -2,3 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
+// inporto i moduli che penso di usare
+@import "reset";
+@import "variables"; //importo le variabili subito dopo il reset
+@import "fastclasses";
+@import "main"; // diventerà la parte css principale della pagina
+//@import "modal";
+//@import "form";

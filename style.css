@@ -1,0 +1,148 @@
+/* Import my chosen GFonts */
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 100%;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* classi "fast" per impostare velocemente istruzioni di display */
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.grid {
+  display: grid;
+}
+
+.full-height {
+  min-height: 100vh;
+  height: 100%;
+}
+
+.myp-0 {
+  padding: 0;
+}
+
+.myp-0_5 {
+  padding: 0.5rem;
+}
+
+.myp-1 {
+  padding: 1rem;
+}
+
+.myp-1_5 {
+  padding: 1.5rem;
+}
+
+.tac {
+  text-align: center;
+}
+
+/* ************************ */
+body {
+  font-size: 20px;
+  color: white;
+  font-family: "Open Sans Condensed", Helvetica, sans-serif;
+  background-color: rgb(4, 4, 4);
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+header {
+  background-color: #99857a;
+  color: #c67b5c;
+  grid-template-rows: 1fr 4fr 1fr;
+  background: url(img/as-ascent.jpg) center center no-repeat;
+  background-size: cover;
+}
+header .top {
+  grid-template-columns: 1fr;
+  padding: 1rem 2rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(59, 59, 60, 0.4);
+}
+header .logo {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .logo a {
+  color: rgb(241, 100, 100);
+  font-size: 3rem;
+  font-family: "Black Ops One", sans-serif;
+}
+header nav ul {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+header nav ul a {
+  color: white;
+  opacity: 0.6;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-family: "Black Ops One", sans-serif;
+}
+header nav ul a:hover {
+  color: rgb(241, 100, 100);
+  opacity: 1;
+}
+
+@media (min-width: 800px) {
+  header .top {
+    grid-template-columns: 2fr 1fr;
+  }
+}/*# sourceMappingURL=style.css.map */

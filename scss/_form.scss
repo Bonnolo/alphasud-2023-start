@@ -1,28 +1,28 @@
 form {
-    display: flex;
-    align-items: flex-end;
-    flex-wrap: wrap;
-    gap: 16px;
-    padding: 50px 10px
-  }
-  input, button, select{
-    padding: 10px;
-  }
-  .name {
-    flex-grow: 1;
-    flex-basis: 100px;
-  }
-  .email {
-    flex-grow: 1;
-    flex-basis: 100px;
-  }
-  .select {
-    flex-grow: 1;
-    flex-basis: 100px;
-  }
-  button {
-    flex-grow: 1;
-    flex-basis: 50px;
-    background-color: rgb(102, 146, 102);
-    color: #ffffff;
-  }
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 50px 10px
+}
+input, button, select{
+  padding: 10px;
+}
+.name {
+  flex-grow: 1;
+  flex-basis: 100px;
+}
+.email {
+  flex-grow: 1;
+  flex-basis: 100px;
+}
+.select {
+  flex-grow: 1;
+  flex-basis: 100px;
+}
+button {
+  flex-grow: 1;
+  flex-basis: 50px;
+  background-color: rgb(102, 146, 102);
+  color: #ffffff;
+}
