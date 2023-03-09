@@ -69,6 +69,57 @@ img {
 }
 
 /* ************************ */
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 16px;
+  padding: 50px 10px;
+}
+
+input, button, select {
+  padding: 10px;
+}
+
+.name {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 100px;
+      flex-basis: 100px;
+}
+
+.email {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 100px;
+      flex-basis: 100px;
+}
+
+.select {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 100px;
+      flex-basis: 100px;
+}
+
+button {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 50px;
+      flex-basis: 50px;
+  background-color: rgb(102, 146, 102);
+  color: #ffffff;
+}
+
 body {
   font-size: 20px;
   color: white;
@@ -273,6 +324,52 @@ li.card-item:hover {
 
 ul.col-4 {
   padding: 1rem;
+}
+
+section#crew h2 {
+  border: 2px solid #ff9d6f;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+/* ----------------------- */
+.accordion-toggle {
+  display: block;
+}
+
+/* nascondiamo in partenza i testi delle FAQ */
+.accordion-content {
+  display: none;
+  /* con click Javascript attiva la classe active */
+}
+.accordion-content.active {
+  display: block;
+}
+.accordion-content.active p {
+  font-size: 1.3rem;
+  color: white;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+section#faq {
+  padding: 1rem 10vw;
+  background-color: #c67b5c;
+}
+section#faq a {
+  text-decoration: underline;
+  color: white;
+}
+section#faq img {
+  margin: 2rem 0;
+}
+
+/* per form */
+section#form input,
+section#form select,
+section#form button,
+section#form select > option {
+  font-family: "Open Sans Condensed", Helvetica, sans-serif;
 }
 
 /* MEDIA QUERY PER DESKTOP DAI 800px */

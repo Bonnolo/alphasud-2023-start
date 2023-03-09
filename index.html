@@ -24,13 +24,13 @@
         <nav>
           <ul class="flex">
             <li>
-              <a href="#mission">La Missione</a>
+              <a class="js-trigger" href="#mission">La Missione</a>
             </li>
             <li>
-              <a href="#crew">Crew</a>
+              <a class="js-trigger" href="#crew">Crew</a>
             </li>
             <li>
-              <a href="#faq">Faq</a>
+              <a class="js-trigger" href="#faq">Faq</a>
             </li>
           </ul>
         </nav>
@@ -250,9 +250,99 @@
           </li>
         </ul>
       </section>
+      <!-- section FAQ -->
+      <section
+        id="faq"
+        data-aos="zoom-in"
+        data-aos-duration="1500"
+        data-aos-once="true"
+        class="full-height"
+      >
+        <div class="grid myp-1">
+          <div class="card tac">
+            <!-- faq -->
+            <h2>Dubbi? ecco le nostre FAQ</h2>
+            <img class="block" src="img/ametrano.jpeg" alt="pasquale" />
+            <h3>
+              <!-- faq 1 -->
+              <a href="#content-1" class="accordion-toggle">
+                FAQ 1: Quando partirà la missione?
+              </a>
+            </h3>
+            <div class="accordion-content" id="content-1">
+              <p>
+                una è già partita, GianPasquale si è seduto sulla console di
+                lancio è il missile è partito senza l'equipaggio, ma con la
+                donna delle pulizie
+              </p>
+            </div>
+            <h3>
+              <!-- faq 2 -->
+              <a href="#content-2" class="accordion-toggle">
+                FAQ 2: Ci sarà una diretta video?
+              </a>
+            </h3>
+            <div class="accordion-content" id="content-2">
+              <p>No, dovremo aspettare il ritorno della cassetta in VHS.</p>
+            </div>
+            <h3>
+              <!-- faq 3 -->
+              <a href="#content-3" class="accordion-toggle">
+                FAQ 3: I rover di esplorazione come si chiamano?
+              </a>
+            </h3>
+            <div class="accordion-content" id="content-3">
+              <p>
+                Si chiamano DUNARS e PANDARS! Dal progetto originario della
+                gloriosa Fiat Duna e dalla Panda della moglie di GianPasquale.
+              </p>
+            </div>
+            <h3>
+              <!-- faq 4 -->
+              <a href="#content-4" class="accordion-toggle">
+                FAQ 4: C'è vita su Marte?
+              </a>
+            </h3>
+            <div class="accordion-content" id="content-4">
+              <p>
+                Andiamo per scoprirlo! Per ora sappiamo che la sera c'è meno
+                movimento che in Piazza Clodio a Crotone.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section Form contatti -->
+      <section id="form" class="grid_1">
+        <h2 class="tac">CONTATTACI</h2>
+        <article class="colonna">
+          <!-- la form con il suo TAG (get or post for method)-->
+          <form action="contact.php" method="post">
+            <input type="text" class="name" placeholder="Nome" required />
+            <input type="email" placeholder="La tua email" required />
+            <select
+              name="city"
+              class="select"
+              placeholder="Città"
+              id="city"
+              required
+            >
+              <option value="">Seleziona una città</option>
+              <option value="milano">Milano</option>
+              <option value="roma">Roma</option>
+              <option value="torino">Torino</option>
+            </select>
+            <button type="submit">Contattaci</button>
+          </form>
+        </article>
+      </section>
     </main>
+    <!-- libreria JS per scrolling -->
+    <script src="js/moveTo.min.js"></script>
+
     <!-- carico library animation AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <!-- inizializzazione di AOS nella pagina -->
     <script>
       AOS.init({
@@ -260,5 +350,11 @@
         disable: "phone", // accetta i seguenti valori: 'phone', 'tablet', 'mobile', boolean, expression or function
       });
     </script>
+
+    <!-- Carico JS per accordion/collapse delle FAQ -->
+    <script src="js/accordion.js"></script>
+
+    <!-- Carico mio script aggiuntivo per comandi -->
+    <script src="js/app.js"></script>
   </body>
 </html>

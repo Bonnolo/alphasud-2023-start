@@ -172,6 +172,53 @@ ul.col-4{
     padding: 1rem;
 }
 
+section#crew h2{
+    border: 2px solid $color3;
+    padding: 1rem;
+    margin: 1rem;
+}
+// end of crew
+/* ----------------------- */
+// FAQ
+.accordion-toggle{
+    display: block;
+
+}
+/* nascondiamo in partenza i testi delle FAQ */
+.accordion-content{
+    display: none;
+    /* con click Javascript attiva la classe active */
+    &.active{
+        display: block;
+        & p{
+            font-size: 1.3rem;
+            color: $main-color-txt;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+        }
+    }
+}
+section#faq{
+    padding: 1rem 10vw;
+    background-color: $color5;
+    a{
+        text-decoration: underline;
+        color: $main-color-txt;
+    }
+    img{
+        margin: 2rem 0;
+    }
+}
+/* per form */
+section#form input,
+section#form select,
+section#form button,
+section#form select > option{
+    font-family: $main-font-family;
+}
+
+
+
 
 /* MEDIA QUERY PER DESKTOP DAI 800px */
 @media(min-width:800px){
